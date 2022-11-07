@@ -2,7 +2,7 @@
 var myMap = L.map("map", {
     center: [39.0997, -94.5786],
     zoom: 5
-  });
+  }, {scrollZoom: true});
   
   // Adding the tile layer
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
